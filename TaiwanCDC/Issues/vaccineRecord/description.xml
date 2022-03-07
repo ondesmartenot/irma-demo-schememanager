@@ -1,0 +1,85 @@
+<IssueSpecification version="4">
+    <Name>
+        <en>Demo Covid-19 Vaccination Record</en>
+	<zh>Demo Covid-19 疫苗接種紀錄</zh>
+    </Name>
+    <ShortName>
+        <en>Demo Vaccine Record</en>
+        <zh>Demo 疫苗接種紀錄</zh>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>TaiwanCDC</IssuerID>
+    <CredentialID>vaccineRecord</CredentialID>
+    <Description>
+	<en>Digital vaccination/immunization record provided by the Taiwan CDC </en>
+        <zh></zh>
+    </Description>
+    <IssueURL>
+	    <en>https://irma.jlev.in/vaccine/en</en>
+	    <zh>https://irma.jlev.in/vaccine/zh</zh>
+    </IssueURL>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
+
+    <Attributes>
+        <Attribute id="covid-19-fully-vaxxed" displayHint="yesno">
+            <Name>
+                <en>Fully vaccinated against Covid-19</en>
+                <zh></zh>
+            </Name>
+            <Description>
+                <en></en>
+                <zh></zh>
+            </Description>
+        </Attribute>
+        <Attribute id="covid-19-vaccine-name">
+            <Name>
+                <en>Specific vaccination obtained for Covid-19</en>
+                <zh></zh>
+            </Name>
+            <Description>
+                <en></en>
+                <zh></zh>
+            </Description>
+        </Attribute>
+        <Attribute id="covid-19-vaccination-date">
+            <Name>
+                <en>Date of last dose of vaccine</en>
+                <zh></zh>
+            </Name>
+            <Description>
+                <en></en>
+                <zh></zh>
+            </Description>
+        </Attribute>
+        <Attribute id="covid-19-has-booster" optional="true">
+            <Name>
+                <en>Has obtained a booster against covid-19</en>
+                <zh></zh>
+            </Name>
+            <Description>
+                <en></en>
+                <zh></zh>
+            </Description>
+        </Attribute>
+        <Attribute id="covid-19-booster-name" optional="true">
+            <Name>
+                <en>Name of booster vaccination</en>
+                <zh></zh>
+            </Name>
+            <Description>
+                <en></en>
+                <zh></zh>
+            </Description>
+        </Attribute>
+        <Attribute id="covid-19-booster-date" optional="true">
+            <Name>
+		    <en>Date of most recent booster against covid-19</en>
+                <zh></zh>
+            </Name>
+            <Description>
+                <en></en>
+                <zh></zh>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>

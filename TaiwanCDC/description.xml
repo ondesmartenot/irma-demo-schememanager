@@ -1,0 +1,14 @@
+<Issuer version="4">
+  <ID>TaiwanCDC</ID>
+  <Name>
+	  <en>Demo Taiwan Centers for Disease Control</en>
+	  <nl>Demo 衛生福利部疾病管制署</nl>
+  </Name>
+  <ShortName>
+	  <en>Demo Taiwan CDC</en>
+	  <nl>Demo 臺灣CDC</nl>
+  </ShortName>
+  <SchemeManager>irma-demo</SchemeManager>
+  <ContactAddress>Demo address</ContactAddress>
+  <ContactEMail>democdc@example.com</ContactEMail>
+</Issuer>
